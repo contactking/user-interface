@@ -1169,11 +1169,14 @@ Agency
 #app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-cog,
 #app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .mkt-menu-list .mkt-folder .fas,
 #app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .md\:justify-center .fa-comments,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .md\:justify-center .fa-users {
+#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .md\:justify-center .fa-users,
+.overflow-x-hidden .w-full .fa-globe,
+.overflow-x-hidden .w-full .fa-newspaper,
+.overflow-x-hidden .w-full .fa-images,
+.overflow-x-hidden .w-full .fa-dice-d20 {
   position: relative;
   top: -4px !important;
 }
-
 
 #unread_convo {
   position: relative !important;
