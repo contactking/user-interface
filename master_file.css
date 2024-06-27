@@ -1173,7 +1173,10 @@ Agency
 .overflow-x-hidden .w-full .fa-globe,
 .overflow-x-hidden .w-full .fa-newspaper,
 .overflow-x-hidden .w-full .fa-images,
-.overflow-x-hidden .w-full .fa-dice-d20 {
+.overflow-x-hidden .w-full .fa-dice-d20,
+#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-globe,
+#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-images,
+#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-newspaper {
   position: relative;
   top: -4px !important;
 }
