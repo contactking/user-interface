@@ -1160,32 +1160,22 @@ body {
 }
 
 
-/* 
-Font Icons: 
-The Grid
-[Grid Logic-Free Calendars]
-Inbox
-Tasks
-Contacts
-Appointments
-Settings
-Agency 
-*/
-#app div:nth-child(2) .flex:nth-child(4) .transition-slowest .flex-col:nth-child(3) .overflow-hidden:nth-child(1) .overflow-x-hidden .w-full:nth-child(1) .md\:justify-center:nth-child(1) .fas:nth-child(1),
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-clipboard-list,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-address-book,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-calendar-alt,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-cog,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .mkt-menu-list .mkt-folder .fas,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .md\:justify-center .fa-comments,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .md\:justify-center .fa-users,
-.overflow-x-hidden .w-full .fa-globe,
-.overflow-x-hidden .w-full .fa-newspaper,
-.overflow-x-hidden .w-full .fa-images,
-.overflow-x-hidden .w-full .fa-dice-d20,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-globe,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-images,
-#app div .flex .transition-slowest .flex-col .overflow-hidden .overflow-x-hidden .w-full .lg\:justify-start .fa-newspaper {
+/* Nav Menu Font Icons */
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-dice-d20,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-comments,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-clipboard-list,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-address-book,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-calendar-alt,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-users,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-crown,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-cog,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-user-cog,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-globe,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-images,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-newspaper,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-bolt,
+#app .flex .transition-slowest .flex-col .overflow-hidden .fa-play-circle,
+#app .flex .transition-slowest .flex-col .overflow-hidden.fa-wrench {
   position: relative;
   top: -4px !important;
 }
@@ -1838,7 +1828,7 @@ Agency
   border-top-right-radius: 0px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  border-top: none!important;
+  border-top: none !important;
   border-left: 1px #f222ff solid !important;
   border-right: 1px #f222ff solid !important;
   border-bottom: 1px #f222ff solid !important;
@@ -5218,4 +5208,4 @@ div.n-virtual-list.v-vl>div>div>div>div>div>div {
 
 /* ------------                          --------------- */
 
-/* Version 6.24.24*/
+/* Version 6.26.24*/
