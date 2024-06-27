@@ -798,6 +798,15 @@ body {
   color: #ffa38b !important;
 }
 
+.hxLXdmn2fcNCNlJwAugr .location-dashboard_header .hl-header .title:after {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding-left: 15px;
+  content: 'Welcome to The Grid, Harry. Are you up to the challenge?' !important;
+  color: #ffa38b !important;
+}
+
 /* Location dashboard date picker */
 #location-dashboard_date-picker {
   width: 275px;
